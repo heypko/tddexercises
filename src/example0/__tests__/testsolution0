@@ -1,0 +1,20 @@
+import {romanNumeralConverter} from "../example_index_0";
+
+// Step 1:
+it("Test Roman Numeral Converter Function", () => {
+  expect(romanNumeralConverter(1)).toBe("I");
+});
+
+// Step 2
+it("Test Roman Numeral Converter Function", () => {
+  expect(romanNumeralConverter(1)).toBe("I");
+  expect(romanNumeralConverter(2)).toBe("II");
+});
+
+// Step 3
+it("Test Roman Numeral Converter Function", () => {
+  expect(romanNumeralConverter(1)).toBe("I");
+  expect(romanNumeralConverter(2)).toBe("II");
+  expect(romanNumeralConverter(1241)).toBe("Case Not Covered");
+});
+

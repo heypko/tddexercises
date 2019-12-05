@@ -1,0 +1,15 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+const LineOfTextContainer = () => {
+  // Write your implementation below
+  return (
+    <>
+      <p data-enzyme-id="starter-text" className="starter-text">
+        Hello
+      </p>
+    </>
+  );
+};
+
+export default LineOfTextContainer;
